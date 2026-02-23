@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    background: #fafaf8;
+    color: #111310;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@layer utilities {
+  .animate-fade-up-card {
+    animation: fade-up-card 700ms ease both;
+  }
+
+  .animate-draw-line {
+    animation: draw-line 1000ms ease forwards;
+  }
+
+  .check-draw {
+    stroke-dasharray: 120;
+    stroke-dashoffset: 120;
+    animation: check-draw 900ms ease forwards;
+  }
+}
+
+@keyframes fade-up-card {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes draw-line {
+  from {
+    stroke-dasharray: 120;
+    stroke-dashoffset: 120;
+  }
+
+  to {
+    stroke-dasharray: 120;
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes check-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
