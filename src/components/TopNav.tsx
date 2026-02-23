@@ -33,7 +33,7 @@ export default function TopNav({ onRequestCallback, hasTopBanner = false }: TopN
         <div className="hidden items-center gap-3 md:flex">
           <a
             href={`tel:${PHONE_NUMBER}`}
-            className="inline-flex items-center gap-2 text-sm font-medium text-muted"
+            className="inline-flex items-center gap-2 text-sm font-medium text-ink"
             onClick={() => trackCall('topnav')}
           >
             <PhoneIcon className="h-4 w-4" />

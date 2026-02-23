@@ -74,7 +74,7 @@ export default function SolutionSection() {
             <br />
             boring. That is the goal.
           </h2>
-          <p className="mt-5 max-w-xl text-lg text-muted">
+          <p className="mt-5 max-w-xl text-lg text-[#4A544F]">
             Boring means: no surprises, no last minute scrambles, no "did we miss something?" after submission.
           </p>
 
@@ -84,7 +84,7 @@ export default function SolutionSection() {
                 <span className="mt-0.5 inline-flex rounded-full bg-primary/10 p-1 text-primary">
                   <CheckIcon className="h-4 w-4" />
                 </span>
-                <span>{item}</span>
+                <span className="text-[#1D2B25]">{item}</span>
               </li>
             ))}
           </ul>
