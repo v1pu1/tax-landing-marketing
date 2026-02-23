@@ -1,5 +1,13 @@
 # Finanshels Corporate Tax Filing - Landing Page
 
+## Deliverables Status
+| Deliverable | Status | Link / Notes |
+|-------------|--------|--------------|
+| Live demo link (Vercel / Netlify) | Pending | Requires platform login on this machine. Run deploy commands below to generate URL. |
+| GitHub repo | Complete | https://github.com/v1pu1/tax-landing-marketing |
+| Component structure explanation (brief) | Complete | See `Component Structure` section below |
+| List of tracked events | Complete | See `Tracked Events` section below |
+
 ## Quick Start
 ```bash
 npm install
@@ -10,9 +18,11 @@ npm run api          # Start mock events server (port 3001)
 ## Deployment
 ```bash
 # Vercel
+vercel login
 vercel deploy
 
 # Netlify
+netlify login
 netlify deploy --prod
 ```
 
