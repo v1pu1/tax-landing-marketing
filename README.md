@@ -3,7 +3,7 @@
 ## Deliverables Status
 | Deliverable | Status | Link / Notes |
 |-------------|--------|--------------|
-| Live demo link (Vercel / Netlify) | Pending | Requires platform login on this machine. Run deploy commands below to generate URL. |
+| Live demo link (Vercel / Netlify) | Complete | https://tax-landing-marketing.vercel.app/ |
 | GitHub repo | Complete | https://github.com/v1pu1/tax-landing-marketing |
 | Component structure explanation (brief) | Complete | See `Component Structure` section below |
 | List of tracked events | Complete | See `Tracked Events` section below |
